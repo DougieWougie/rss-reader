@@ -1,0 +1,187 @@
+/* Textual RSS Reader - Styling */
+
+Screen {
+    background: $surface;
+    color: $text;
+}
+
+Header {
+    background: $primary;
+    color: $text;
+    text-align: center;
+    height: 2;
+}
+
+Footer {
+    background: $primary;
+    color: $text;
+    text-align: center;
+    height: 2;
+}
+
+/* Grid layout styling */
+#main-grid {
+    height: 1fr;
+    width: 100%;
+}
+
+#feeds-sidebar {
+    width: 30%;
+    height: 100%;
+    border-right: solid $primary;
+    padding: 1;
+}
+
+#articles-section {
+    width: 70%;
+    height: 100%;
+    padding: 1;
+}
+
+#articles-content {
+    height: 1fr;
+    width: 100%;
+}
+
+#articles-list-container {
+    width: 50%;
+    height: 100%;
+    border-right: solid $primary;
+    padding-right: 1;
+}
+
+#article-detail {
+    width: 50%;
+    height: 100%;
+    padding-left: 1;
+}
+
+.sidebar-title {
+    text-align: center;
+    text-style: bold;
+    margin: 0 0 1 0;
+    color: $accent;
+}
+
+.articles-section-title {
+    text-align: center;
+    text-style: bold;
+    margin: 0 0 1 0;
+    color: $accent;
+}
+
+/* Feed sidebar item styling */
+.feed-sidebar-title {
+    margin: 0 0 1 0;
+    padding: 1;
+}
+
+.feed-sidebar-title:hover {
+    background: $primary;
+    color: $surface;
+}
+
+/* Article list item styling */
+.article-list-title {
+    margin: 0 0 1 0;
+    text-style: bold;
+}
+
+.article-list-published {
+    color: $success;
+    margin: 0 0 1 0;
+}
+
+/* Selected article detail styling */
+.selected-article-title {
+    margin: 0 0 1 0;
+    text-style: bold;
+}
+
+.selected-article-feed {
+    color: $accent;
+    margin: 0 0 1 0;
+}
+
+.selected-article-published {
+    color: $success;
+    margin: 0 0 1 0;
+}
+
+.selected-article-link {
+    color: $warning;
+    text-style: underline;
+    margin: 0 0 1 0;
+}
+
+.selected-article-summary {
+    margin: 1 0 0 0;
+}
+
+.article-placeholder {
+    text-align: center;
+    color: $text-muted;
+    height: 100%;
+}
+
+.loading-text {
+    color: $warning;
+    text-style: italic;
+}
+
+/* ListView styling */
+ListView {
+    height: 1fr;
+    width: 100%;
+}
+
+/* Modal dialog styling */
+#add-feed-modal {
+    width: 60%;
+    height: 50%;
+    border: solid $primary;
+    background: $surface;
+    align: center middle;
+}
+
+.modal-title {
+    text-align: center;
+    text-style: bold;
+    margin: 1 0;
+}
+
+.input-label {
+    margin: 1 0 0 0;
+}
+
+.button-container {
+    margin: 1 0 0 0;
+    height: 3;
+    align-horizontal: right;
+}
+
+#article-container {
+    height: 1fr;
+    padding: 1;
+}
+
+#article-buttons {
+    height: 3;
+    margin: 1 0 0 0;
+    align-horizontal: right;
+}
+
+.feed-list-container {
+    margin: 1 0;
+    padding: 1;
+}
+
+#main-container {
+    height: 1fr;
+    padding: 1;
+}
+
+#loading {
+    text-align: center;
+    margin: 10 0;
+}

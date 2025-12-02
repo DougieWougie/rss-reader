@@ -1,0 +1,6 @@
+# RSS Reader Application Requirements
+feedparser>=6.0.0
+colorama>=0.4.4
+requests>=2.25.1
+argparse
+textual>=0.40.0
