@@ -1,5 +1,5 @@
 # Terminal RSS Feed Reader
-
+![RSS Reader](rss-reader.png)
 A command-line RSS feed reader that allows you to manage and read RSS feeds from a markdown file, with both command-line and rich terminal UI options.
 
 ## Features
